@@ -1,0 +1,15 @@
+.checks__check--success {
+  color: #003300;
+}
+
+.checks__check--success::after {
+  content: " ✅ ";
+}
+
+.checks__check--failed {
+  color: #330000;
+}
+
+.checks__check--failed::after {
+  content: " ❌ ";
+}
