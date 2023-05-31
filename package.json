@@ -3,12 +3,14 @@
   "version": "1.0.0",
   "description": "Password Check",
   "scripts": {
-    "serve": "serve ./src"
+    "serve": "serve ./src",
+    "e2e": "cypress open"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "cypress": "^12.13.0",
     "serve": "^14.2.0"
   }
 }
